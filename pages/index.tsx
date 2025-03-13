@@ -7,7 +7,7 @@ export default function Home(){
         <>
         <Header  />
         <main className='mt-25' >
-            <section className=' text-white bg-gradient-to-tr from-gray-900 via-gray-800 to-gray-700  items-center h-[40rem] py-8'>
+            <section className='text-white bg-gradient-to-tr from-gray-900 via-gray-800 to-gray-700  items-center h-[40rem] py-8'>
 
                 <div className='md:max-w-[58rem] font-bold  sm:text-7xl text-6xl    p-4 mx-auto  '>
                     <h2 className='h-fit  '>Assistência </h2>

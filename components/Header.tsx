@@ -10,8 +10,8 @@ const Header: React.FC = () =>{
     const menu = [
         
         {link:"/", label: "Home"},
-        {link:"produto", label: "Produto"},
-        {link:"contato", label: "Contato"},
+        {link:"#produto", label: "Produto"},
+        {link:"#contato", label: "Contato"},
         {link:"plus", label: "plus"}
         
     ];
