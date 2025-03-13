@@ -9,10 +9,10 @@ export default function Home(){
         <main className='mt-25' >
             <section className='text-white bg-gradient-to-tr from-gray-900 via-gray-800 to-gray-700  items-center h-[40rem] py-8'>
 
-                <div className='md:max-w-[58rem] font-bold  sm:text-7xl text-6xl    p-4 mx-auto  '>
+                <div className='md:max-w-[58rem] font-bold  sm:text-7xl text-5xl    p-4 mx-auto  '>
                     <h2 className='h-fit  '>Assistência </h2>
-                    <h2 className='font-bold md:text-7xl text-6xl  h-fit  '>Técnica </h2>
-                    <h2 className='font-bold md:text-7xl text-6xl  h-fit  '>Especializada</h2>
+                    <h2 className='font-bold md:text-7xl h-fit  '>Técnica </h2>
+                    <h2 className='font-bold md:text-7xl h-fit  '>Especializada</h2>
                     
                     
                 </div>
