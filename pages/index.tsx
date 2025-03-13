@@ -5,7 +5,7 @@ export default function Home(){
 
     return (
         <>
-        <Header id='Home' />
+        <Header  />
         <main className='mt-25' >
             <section className=' text-white bg-gradient-to-tr from-gray-900 via-gray-800 to-gray-700  items-center h-[40rem] py-8'>
 
