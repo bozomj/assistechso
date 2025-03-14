@@ -1,4 +1,5 @@
 import Header from '@/components/Header';
+import Link from 'next/link';
 
 
 export default function Home(){
@@ -9,7 +10,7 @@ export default function Home(){
         <main className='mt-25' >
             <section className='text-white bg-gradient-to-tr from-gray-900 via-gray-800 to-gray-700  items-center h-[40rem] py-8'>
 
-                <div className='md:max-w-[58rem] font-bold  sm:text-7xl text-5xl    p-4 mx-auto  '>
+                <div className='md:max-w-[58rem] font-bold  sm:text-7xl text-5xl    p-4 my-8 mx-auto  '>
                     <h2 className='h-fit  '>Assistência </h2>
                     <h2 className='font-bold md:text-7xl h-fit  '>Técnica </h2>
                     <h2 className='font-bold md:text-7xl h-fit  '>Especializada</h2>
@@ -17,8 +18,8 @@ export default function Home(){
                     
                 </div>
                 <div className='md:max-w-[58rem] mx-auto px-4 '>
-                <span className='block' >&quot; Serviços de Manutenção em Computadores, Notebooks, Placas-Mãe e Suporte Técnico em TI &quot;</span>
-                    <span className='text-orange-600 font-bold underline'><a href="">Algum outro link</a></span>
+                <span className='block' >&quot;Serviços de Manutenção em Computadores, Notebooks, Placas-Mãe e Suporte Técnico em TI&quot;</span>
+                    <span className='py-4 block text-orange-600 font-bold underline'><Link target='_Blank' href="https://wa.me/5534997668902?text=[Assistechso]: Olá! gostaria de solisitar um orçamneto" >Solicite um orçamento</Link></span>
                     
                     <span className='flex py-8'>
                         <a href="https://instagram.com/assistechso" target='_blank'>
@@ -42,8 +43,8 @@ export default function Home(){
 
                    <div className='flex flex-col md:flex-row justify-between w-full '>
                         <div className='flex flex-col items-center flex-1/2 md:self-start' >
-                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" className="size-40">
-                                <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 3v1.5M4.5 8.25H3m18 0h-1.5M4.5 12H3m18 0h-1.5m-15 3.75H3m18 0h-1.5M8.25 19.5V21M12 3v1.5m0 15V21m3.75-18v1.5m0 15V21m-9-1.5h10.5a2.25 2.25 0 0 0 2.25-2.25V6.75a2.25 2.25 0 0 0-2.25-2.25H6.75A2.25 2.25 0 0 0 4.5 6.75v10.5a2.25 2.25 0 0 0 2.25 2.25Zm.75-12h9v9h-9v-9Z" />
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="size-40">
+                                <path strokeLinecap="round" strokeLinejoin="round" d="M8.25 3v1.5M4.5 8.25H3m18 0h-1.5M4.5 12H3m18 0h-1.5m-15 3.75H3m18 0h-1.5M8.25 19.5V21M12 3v1.5m0 15V21m3.75-18v1.5m0 15V21m-9-1.5h10.5a2.25 2.25 0 0 0 2.25-2.25V6.75a2.25 2.25 0 0 0-2.25-2.25H6.75A2.25 2.25 0 0 0 4.5 6.75v10.5a2.25 2.25 0 0 0 2.25 2.25Zm.75-12h9v9h-9v-9Z" />
                             </svg>
                             
                             <h2 className='text-amber-600 font-bold text-2xl'>Reparos</h2>
@@ -72,13 +73,13 @@ export default function Home(){
                                 <path transform="translate(1021,1296)" d="m0 0 9 1 6 5 6 12 15 40 2 8v7l-3 10-5 8-4 5-9 5-5 2-12 1-10-2-10-6-6-7-5-11-1-4v-9l4-13 12-31 7-16 6-4z"/>
                             </svg>
 
-                            <h2 className='text-amber-600 font-bold text-2xl py-4 '>Manutenção</h2>
+                            <Link target='_Blank' href={`https://wa.me/5534997668902?text=[Assistechso] Olá, gostaria de solicitar um orçamento para reparo`}><h2 className='text-amber-600 font-bold text-2xl py-4 '>Manutenção</h2></Link>
                             <p>Barulhos estranhos, tela azul, tela preta, lento ou travando, sistema não carrega, computador não liga, reiniciando sozinho, vírus.</p>
                         </div>
 
                         <div className='flex flex-col items-center flex-1/2 md:self-start '>
-                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" className="size-40">
-                                <path stroke-linecap="round" stroke-linejoin="round" d="M12 21a9.004 9.004 0 0 0 8.716-6.747M12 21a9.004 9.004 0 0 1-8.716-6.747M12 21c2.485 0 4.5-4.03 4.5-9S14.485 3 12 3m0 18c-2.485 0-4.5-4.03-4.5-9S9.515 3 12 3m0 0a8.997 8.997 0 0 1 7.843 4.582M12 3a8.997 8.997 0 0 0-7.843 4.582m15.686 0A11.953 11.953 0 0 1 12 10.5c-2.998 0-5.74-1.1-7.843-2.918m15.686 0A8.959 8.959 0 0 1 21 12c0 .778-.099 1.533-.284 2.253m0 0A17.919 17.919 0 0 1 12 16.5c-3.162 0-6.133-.815-8.716-2.247m0 0A9.015 9.015 0 0 1 3 12c0-1.605.42-3.113 1.157-4.418" />
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="size-40">
+                                <path strokeLinecap="round" strokeLinejoin="round" d="M12 21a9.004 9.004 0 0 0 8.716-6.747M12 21a9.004 9.004 0 0 1-8.716-6.747M12 21c2.485 0 4.5-4.03 4.5-9S14.485 3 12 3m0 18c-2.485 0-4.5-4.03-4.5-9S9.515 3 12 3m0 0a8.997 8.997 0 0 1 7.843 4.582M12 3a8.997 8.997 0 0 0-7.843 4.582m15.686 0A11.953 11.953 0 0 1 12 10.5c-2.998 0-5.74-1.1-7.843-2.918m15.686 0A8.959 8.959 0 0 1 21 12c0 .778-.099 1.533-.284 2.253m0 0A17.919 17.919 0 0 1 12 16.5c-3.162 0-6.133-.815-8.716-2.247m0 0A9.015 9.015 0 0 1 3 12c0-1.605.42-3.113 1.157-4.418" />
                             </svg>
 
                             <h2 className='text-amber-600 font-bold text-2xl'>Redes e Internet</h2>
@@ -91,6 +92,19 @@ export default function Home(){
 
                 </div>
 
+            </section>
+
+            <section id='recomendacoes' className='py-12'>
+                <h2 className='text-5xl font-bold h-[40rem] text-center'>Recomendações</h2>
+                <div id='produtos'>
+                        <ul>
+                            <li>Produto </li>
+                            <li>Produto </li>
+                            <li>Produto </li>
+
+
+                        </ul>
+                </div>
             </section>
         </main>
         </>

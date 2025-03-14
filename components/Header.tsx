@@ -12,7 +12,7 @@ const Header: React.FC = () =>{
         {link:"/", label: "Home"},
         {link:"#produto", label: "Produto"},
         {link:"#contato", label: "Contato"},
-        {link:"plus", label: "plus"}
+        {link:"#recomendacoes", label: "Recomendações"}
         
     ];
    
