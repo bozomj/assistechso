@@ -10,7 +10,6 @@ const Header: React.FC = () =>{
     const menu = [
         
         {link:"/", label: "Home"},
-        {link:"#produto", label: "Produto"},
         {link:"#contato", label: "Contato"},
         {link:"#recomendacoes", label: "Recomendações"}
         
@@ -55,11 +54,11 @@ const Header: React.FC = () =>{
 
             
 
-            <label   className=" justify-end  transition-all duration-600 gap-4  h-0 overflow-hidden  flex  peer-checked:h-40 bg-gray-900 w-full  flex-col items-end 
-            md:h-auto md:flex-row px-8 md:px-0 peer-checked:py-4
+            <label   className=" justify-end  transition-all duration-600 gap-4  h-0 overflow-hidden  flex  peer-checked:h-30 bg-gray-900 w-full  flex-col items-end 
+            md:h-auto md:flex-row px-8 md:px-4 peer-checked:py-4
             ">
                 {
-                    menu.map((e,key)=> <Link key={key} href={e.link}>{e.label}</Link>)
+                    menu.map((e,key)=> <Link key={key} href={e.link} className="hover:text-amber-600">{e.label}</Link>)
                 }
                     
             </label>
