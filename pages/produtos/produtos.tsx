@@ -9,23 +9,20 @@ export default function Produtos() {
           image='https://http2.mlstatic.com/D_NQ_NP_884912-MLU72067385668_102023-O.webp'
           alt=''
           legend='Teclado Semi-mecanico'
-          valor={120.0}
         />
 
         <Card
           key={1}
           image='https://http2.mlstatic.com/D_NQ_NP_858109-MLA40944407720_022020-O.webp'
           alt=''
-          legend='Teclado Semi-mecanico'
-          valor={120.0}
+          legend='Fone de ouvido over-ear gamer'
         />
 
         <Card
           key={1}
           image='https://http2.mlstatic.com/D_NQ_NP_958552-MLB82237580907_022025-O.webp'
           alt=''
-          legend='Teclado Semi-mecanico'
-          valor={120.0}
+          legend='Mouse Gamer'
         />
       </section>
     </>
