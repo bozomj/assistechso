@@ -20,10 +20,10 @@ export default function Home() {
               Placas-Mãe e Suporte Técnico em TI&quot;
             </span>
 
-            <span className='py-4 block text-orange-600 font-bold underline'>
+            <span className='py-4 block text-orange-600 font-bold underline hover:text-amber-500'>
               <Link
                 target='_Blank'
-                href='https://wa.me/5534997668902?text=[Assistechso]: Olá! gostaria de solisitar um orçamneto'
+                href='https://wa.me/5534997668902?text=[Assistechso]: Olá! gostaria de solicitar um orçamento'
               >
                 Solicite um orçamento
               </Link>
@@ -47,7 +47,7 @@ export default function Home() {
           </div>
         </section>
 
-        <section id='contato' className='bg-gray-100  text-gray-900 px-2'>
+        <section id='servicos' className='bg-gray-100  text-gray-900 px-2'>
           <div className='md:max-w-[58rem] mx-auto   py-8 text-center'>
             <h2 className='text-4xl font-bold'>
               <span className='block'>Como podemos </span>
@@ -174,9 +174,9 @@ export default function Home() {
 
             <Link
               target='_Blank'
-              href={`https://wa.me/5534997668902?text=[Assistechso] Olá, gostaria de solicitar um orçamento para reparo`}
+              href={`https://wa.me/5534997668902?text=[Assistechso] Olá, gostaria de solicitar um orçamento`}
             >
-              <h2 className='text-3xl font-bold text-amber-600'>
+              <h2 className='text-3xl font-bold text-amber-600 hover:text-red-600'>
                 Solicite um orçamento
               </h2>
             </Link>
@@ -188,10 +188,10 @@ export default function Home() {
           className='py-12 min-h-[40rem] flex flex-col items-center bg-gray-700'
         >
           <div className=' mx-auto md:max-w-[58rem]'>
-            <h2 className='text-4xl font-bold  text-center text-white'>
+            <h2 className='text-4xl font-bold  text-center text-white py-4'>
               Recomendações
             </h2>
-            <br />
+
             <Produtos />
 
             <div
