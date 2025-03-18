@@ -167,7 +167,7 @@ export default function Home() {
                     Redes e Internet
                   </h2>
                   <p>
-                    Suporte em Redes e Internet, Cabeamento, Configuração de
+                    Suporte em Redes e Internet: Cabeamento, Configuração de
                     Roteadores e Repetidores
                   </p>
                 </div>

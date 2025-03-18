@@ -11,8 +11,6 @@ const Header: React.FC = () => {
   ];
 
   function change() {
-    // let showmenu = document.getElementById('showmenu') as HTMLInputElement;
-
     setToggle(!toggle);
   }
 
@@ -70,28 +68,27 @@ const Header: React.FC = () => {
 
         <div
           className=' justify-end  transition-all duration-600 gap-4  h-0 overflow-hidden  flex  peer-checked:h-30 bg-gray-900 w-full  flex-col items-end 
-            md:h-auto md:flex-row px-8 md:px-4 peer-checked:py-4
+             md:flex-row px-8 md:px-4 peer-checked:py-4 md:h-auto  md:peer-checked:h-auto
             '
         >
           {menu.map((e, key) => (
-            <div key={key}>
-              <Link
-                href={e.link}
-                className='hover:text-amber-600'
-                onClick={() => {
-                  document.getElementById('showmenu')?.click();
-                  change();
-                }}
-              >
-                {e.label}
-              </Link>
-            </div>
+            <Link
+              key={key}
+              href={e.link}
+              className='hover:text-amber-600'
+              onClick={() => {
+                document.getElementById('showmenu')?.click();
+                change();
+              }}
+            >
+              {e.label}
+            </Link>
           ))}
         </div>
         <label
           onClick={change}
           htmlFor='showmenu'
-          className='h-screen w-full hidden fixed left-0 top-0 z-[-1]  peer-checked:block'
+          className='h-screen w-full hidden fixed left-0 top-0 z-[-1]  peer-checked:block md:peer-checked:hidden'
         ></label>
       </nav>
     </header>
