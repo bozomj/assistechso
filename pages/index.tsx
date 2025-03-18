@@ -1,6 +1,6 @@
 import Header from '@/components/Header';
 import Link from 'next/link';
-import Contato from '../components/contato';
+import Contato from '../sections/contato';
 import Produtos from './produtos/produtos';
 
 export default function Home() {
