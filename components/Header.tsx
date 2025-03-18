@@ -5,9 +5,9 @@ import { useState } from 'react';
 const Header: React.FC = () => {
   const [toggle, setToggle] = useState(true);
   const menu = [
-    { link: '/', label: 'Home' },
     { link: '#servicos', label: 'Serviços' },
     { link: '#recomendacoes', label: 'Recomendações' },
+    { link: '#contato', label: 'Contato' },
   ];
 
   function change() {

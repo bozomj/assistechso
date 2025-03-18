@@ -1,5 +1,6 @@
 import Header from '@/components/Header';
 import Link from 'next/link';
+import Contato from './contato/contato';
 import Produtos from './produtos/produtos';
 
 export default function Home() {
@@ -20,10 +21,11 @@ export default function Home() {
               Placas-Mãe e Suporte Técnico em TI&quot;
             </span>
 
-            <span className='py-4 block text-orange-600 font-bold underline hover:text-amber-500'>
+            <span className='py-4 block text-orange-600 font-bold underline  '>
               <Link
                 target='_Blank'
                 href='https://wa.me/5534997668902?text=[Assistechso]: Olá! gostaria de solicitar um orçamento'
+                className='hover:text-amber-500'
               >
                 Solicite um orçamento
               </Link>
@@ -172,14 +174,15 @@ export default function Home() {
               </div>
             </div>
 
-            <Link
-              target='_Blank'
-              href={`https://wa.me/5534997668902?text=[Assistechso] Olá, gostaria de solicitar um orçamento`}
-            >
-              <h2 className='text-3xl font-bold text-amber-600 hover:text-red-600'>
+            <h2 className='text-3xl font-bold text-amber-600 '>
+              <Link
+                target='_Blank'
+                className='hover:text-red-600'
+                href={`https://wa.me/5534997668902?text=[Assistechso] Olá, gostaria de solicitar um orçamento`}
+              >
                 Solicite um orçamento
-              </h2>
-            </Link>
+              </Link>
+            </h2>
           </div>
         </section>
 
@@ -213,6 +216,8 @@ export default function Home() {
             </div>
           </div>
         </section>
+
+        <Contato />
       </main>
     </>
   );
