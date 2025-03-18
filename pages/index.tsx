@@ -177,7 +177,7 @@ export default function Home() {
             <h2 className='text-3xl font-bold text-amber-600 '>
               <Link
                 target='_Blank'
-                className='hover:text-red-600'
+                className='hover:text-red-600 underline'
                 href={`https://wa.me/5534997668902?text=[Assistechso] Olá, gostaria de solicitar um orçamento`}
               >
                 Solicite um orçamento

@@ -8,13 +8,13 @@ export default function Contato() {
   return (
     <section
       id='contato'
-      className='flex justify-center p-8 font-bold text-2xl bg-gray-900 text-gray-100'
+      className='flex flex-col justify-center items-center p-8 font-bold text-[1.3rem] bg-gray-900 text-gray-100'
     >
       <div className='flex  gap-4  md:max-w-[58rem]  w-full'>
         <Link
           href={'https://instagram.com/assistechso'}
           target='_blank'
-          className=' hover:text-pink-600'
+          className=' hover:text-pink-800'
         >
           <FontAwesomeIcon icon={faInstagram} size='xl' />
         </Link>
