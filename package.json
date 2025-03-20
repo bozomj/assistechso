@@ -9,7 +9,9 @@
     "lint": "next lint",
     "services:up": "docker compose  -f compose.yaml up -d",
     "migration:create": "node-pg-migrate -m infra/migrations create",
-    "migration:up": "node-pg-migrate -m infra/migrations --envPath .env.development up"
+    "migration:up": "node-pg-migrate -m infra/migrations --envPath .env.development up",
+    "test": "jest",
+    "test:watch": "jest --watch"
   },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.7.2",
