@@ -4,10 +4,10 @@ import { createRouter } from 'next-connect';
 import { Pool } from 'pg';
 
 const pool = new Pool({
-  user: 'local_user2',
-  host: 'localhost', // Endereço do servidor (ou IP)
-  database: 'local_db', // Nome do banco de dados
-  password: 'local_password', // Sua senha do PostgreSQL
+  user: process.env.POSTGRES_USER,
+  host: process.env.POSTGRES_HOST, // Endereço do servidor (ou IP)
+  database: process.env.POSTGRES_BD, // Nome do banco de dados
+  password: process.env.POSTGRES_PASSWORDS, // Sua senha do PostgreSQL
   port: 5432,
 });
 

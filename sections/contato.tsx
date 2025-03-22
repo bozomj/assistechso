@@ -8,9 +8,15 @@ export default function Contato() {
   return (
     <section
       id='contato'
-      className='flex flex-col justify-center items-center p-8 font-bold text-[1.3rem] bg-gray-900 text-gray-100'
+      className='flex flex-col justify-center items-start p-8 font-bold  bg-gray-900 text-gray-100 w-full'
     >
-      <div className='flex  gap-4  md:max-w-[58rem]  w-full'>
+      <h2 className='text-4xl py-2'>
+        <span className='text-orange-600'>Fale</span> com a gente
+      </h2>
+      <p className='py-4 '>
+        Entre em contato, respoderemos o mais breve possível.
+      </p>
+      <div className='flex  gap-4  md:max-w-[58rem]  w-full text-[1.3rem]'>
         <Link
           href={'https://instagram.com/assistechso'}
           target='_blank'

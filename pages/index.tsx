@@ -49,7 +49,7 @@ export default function Home() {
           </div>
         </section>
 
-        <section id='servicos' className='bg-gray-100  text-gray-900 px-2'>
+        <section id='servicos' className='bg-gray-100  text-gray-900 px-2 py-8'>
           <div className='md:max-w-[58rem] mx-auto   py-8 text-center'>
             <h2 className='text-4xl font-bold'>
               <span className='block'>Como podemos </span>
@@ -174,7 +174,7 @@ export default function Home() {
               </div>
             </div>
 
-            <h2 className='text-3xl font-bold text-amber-600 '>
+            <h2 className='text-3xl font-bold text-amber-600 py-8'>
               <Link
                 target='_Blank'
                 className='hover:text-red-600 underline'
@@ -190,7 +190,7 @@ export default function Home() {
           id='recomendacoes'
           className='py-12 min-h-[40rem] flex flex-col items-center bg-gray-700'
         >
-          <div className=' mx-auto md:max-w-[58rem]'>
+          <div className=' w-full md:max-w-[58rem]  px-2'>
             <h2 className='text-4xl font-bold  text-center text-white py-4'>
               Recomendações
             </h2>
@@ -199,7 +199,7 @@ export default function Home() {
 
             <div
               id='produtos'
-              className='flex flex-col justify-around h-full items-center text-3xl'
+              className='flex flex-col justify-around h-full items-center text-3xl py-8'
             >
               <h4 className=' font-bold text-orange-400'>Em construção!!</h4>
 
@@ -217,7 +217,11 @@ export default function Home() {
           </div>
         </section>
 
-        <Contato />
+        <footer className='bg-gray-900 flex justify-center'>
+          <div className='md:max-w-[58rem] w-full '>
+            <Contato />
+          </div>
+        </footer>
       </main>
     </>
   );
